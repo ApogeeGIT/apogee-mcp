@@ -1,25 +1,27 @@
 {
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "ad.apogee/apogee",
-  "title": "Apogee Ads",
-  "description": "Bulk-launch and manage Meta, TikTok and Snapchat ads across all your ad accounts, with your OK.",
+  "title": "Apogee: bulk ad launcher for Meta, TikTok & Snapchat",
+  "description": "Bulk-launch and manage ads across many Meta, TikTok and Snapchat ad accounts for agencies.",
   "version": "1.1.0",
-  "websiteUrl": "https://apogee.ad/developers/mcp",
+  "websiteUrl": "https://www.apogee.ad/developers/mcp/",
   "repository": {
     "url": "https://github.com/ApogeeGIT/apogee-mcp",
     "source": "github"
   },
-  "icons": [
-    {
-      "src": "https://app.apogee.ad/apogee-icon-512.png",
-      "mimeType": "image/png",
-      "sizes": ["512x512"]
-    }
-  ],
   "remotes": [
     {
       "type": "streamable-http",
       "url": "https://app.apogee.ad/mcp"
+    }
+  ],
+  "icons": [
+    {
+      "src": "https://app.apogee.ad/apogee-icon-512.png",
+      "mimeType": "image/png",
+      "sizes": [
+        "512x512"
+      ]
     }
   ]
 }
