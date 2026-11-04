@@ -1,0 +1,11 @@
+{
+  "name": "apogee",
+  "version": "1.1.0",
+  "description": "Bulk-launch and manage ads across many Meta, TikTok and Snapchat ad accounts for agencies.",
+  "mcpServers": {
+    "apogee": {
+      "httpUrl": "https://app.apogee.ad/mcp"
+    }
+  },
+  "contextFileName": "GEMINI.md"
+}
